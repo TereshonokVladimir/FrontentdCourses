@@ -1,0 +1,17 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #000; /* Border added */
+}
+
+.header-table{
+  background-color: blue;
+}
+#table1{
+  border: 3px solid black;
+}
+
+th, td {
+  border: 1px solid #000; /* Border added */
+  padding: 8px;
+}

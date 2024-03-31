@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Document</title>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #5d8efc;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    main{
+      display: flex;
+      flex-direction: column;
+      width: 800px;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+    }
+
+    form{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      background-color: #fff;
+      width: 400px;
+      padding: 50px;
+      border-radius: 15px;
+      gap: 10px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.4);
+      
+    }
+
+    input{
+      padding: 20px 15px;
+      border: 1px solid grey;
+      border-radius: 10px;
+      opacity: 0.6;
+    }
+
+    input:focus{
+      opacity: 1;
+    }
+
+    button{
+      width: 50%;
+      background-color: #5d8efc;
+      color:#fff;
+      border: none;
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    i{
+      color:#fff;
+      font-size: 50px;
+    }
+
+    h1{
+      color:#fff;
+      font-size: 24px;
+      font-weight: 300;
+    }
+
+    .link-box{
+      width: 500px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .link-box > a{
+      text-decoration: none;
+      color: #fff;
+      opacity: 0.6;
+    } 
+    span{
+      position: absolute;
+      top:5px;
+      left:5px;
+    }
+.rectangle{
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  position: absolute;
+  top:5px;
+  left:5px;
+  border-radius: 5px;
+}
+.circle-box{
+  background-color: white;
+  width:500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: 1fr 2fr 3fr 1fr;
+
+}
+.circle{
+  width:40px;
+  height:40px;
+  background-color: green;
+  border-radius: 50%;
+}
+.button-box{
+  display: flex;
+  gap: 5px;
+}
+  </style>
+</head>
+<body>
+  <main>
+    <i class='bx bx-message-alt-detail'></i>
+    <h1>Welcome back!</h1>
+    <form action="">
+      <input type="text" placeholder="Email address">
+      <input type="password" placeholder="Password">
+      <input type="text" placeholder="Phone Number">
+      <div class="button-box">
+        <button>Login</button>
+        <button>Center</button>
+        <button>Sign-Up</button>  
+      </div>
+      <div class="rectangle"></div>
+    </form>
+    <div class="link-box">
+      <a href="#">Forgot your password?</a>
+      <a href="#">Dont have an account? <strong>Get Started</strong></a>
+    </div>
+   
+  </main>
+  <!-- <div class="circle-box">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div> -->
+</body>
+</html>
