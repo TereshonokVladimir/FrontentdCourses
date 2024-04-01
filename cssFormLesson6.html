@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+      background-color: #08a5a9;
+    }
+    form{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      margin: 20px auto;
+      background-color: #fff;
+      flex-direction: column;
+      width: 600px;
+      border-radius: 15px;
+    }
+    h1{
+      font-weight: 800;
+      margin: 40px;
+    }
+    label{
+      justify-self: flex-start;
+    }
+    input{
+      width: 100%;
+      border: none;
+      padding: 15px;
+      background-color: #f6f6f6;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+    textarea{
+      width: 100%;
+      border: none;
+      padding: 15px;
+      background-color: #f6f6f6;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+    button{
+      background-color: #11857b;
+      color: #fff;
+      padding: 15px 40px;
+      border: none;
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+    button span{
+      font-size: 24px;
+    }
+
+    div{
+      width:400px;
+    }
+  </style>
+</head>
+<body>
+  <form action="">
+    <h1>Feedback Form</h1>
+    <div>
+      <label for="">Name:</label>
+      <input type="text" placeholder="Enter Name">  
+    </div>
+    <div>
+      <label for="">Email:</label>
+      <input type="email" placeholder="Enter email">  
+    </div>
+    <div>
+      <label for="" >Subject:</label>
+      <input type="text" placeholder="Enter subject">  
+    </div>
+    <div>
+      <label for="">Message:</label>
+        <textarea name="Message" cols="30" rows="10" placeholder="Enter Message"></textarea>  
+    </div>
+        <button>
+          <span>
+            Submit
+          </span>
+        <span class="material-symbols-outlined">
+          arrow_right_alt
+          </span></button>
+  </form>
+</body>
+</html>
