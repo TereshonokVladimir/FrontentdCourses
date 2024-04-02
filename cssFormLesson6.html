@@ -13,34 +13,39 @@
       font-family: Arial, Helvetica, sans-serif;
     }
     body{
-      background-color: #08a5a9;
+      background: linear-gradient(to right,#089ea9,#08c5a9,#089ea9);
     }
     form{
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 40px;
-      margin: 20px auto;
+      margin: 40px auto;
       background-color: #fff;
       flex-direction: column;
       width: 600px;
       border-radius: 15px;
     }
+
     h1{
       font-weight: 800;
       margin: 40px;
     }
-    label{
-      justify-self: flex-start;
-    }
+
     input{
       width: 100%;
-      border: none;
+      border: 1px solid #fff;
       padding: 15px;
       background-color: #f6f6f6;
       border-radius: 20px;
       margin-bottom: 20px;
+      margin-top: 5px;
     }
+
+    input:focus,textarea:focus{
+      outline: 2px solid #11857b;
+    }
+
     textarea{
       width: 100%;
       border: none;
@@ -48,18 +53,28 @@
       background-color: #f6f6f6;
       border-radius: 20px;
       margin-bottom: 20px;
+      margin-top: 5px;
     }
+
     button{
       background-color: #11857b;
       color: #fff;
       padding: 15px 40px;
-      border: none;
+      border: 1px solid #fff;
       border-radius: 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 20px;
+      outline:none;
     }
+
+    button:hover,button:focus{
+      background-color: #fff;
+      color: #11857b;
+      border: 1px solid #11857b;
+    }
+
     button span{
       font-size: 24px;
     }
