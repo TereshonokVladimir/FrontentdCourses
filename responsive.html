@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      height: 1200px;
+      width: 900px;
+      display: grid;
+      grid-template-columns: repeat(3, 320px);
+      gap:20px;
+    }
+    div{
+      width: 300px;
+      height: 300px;
+      margin: 5px;
+    }
+    .blue{
+      background-color: blue;
+    }
+    .gradient{
+      background: linear-gradient(to left, green,blue);
+    }
+    .gradient-circle{
+      background: radial-gradient(green,blue);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blue">I`m blue</div>
+  <div class="gradient">I`m gradinet</div>
+  <div class="gradient-circle">I`m gradinet</div>
+  <div class="blue">I`m blue</div>
+  <div class="gradient">I`m gradinet</div>
+  <div class="gradient-circle">I`m gradinet</div>
+  <div class="gradient-circle">I`m gradinet</div>
+  <div class="gradient">I`m gradinet</div>
+  <div class="gradient-circle">I`m gradinet</div>
+  <div class="gradient-circle">I`m gradinet</div>
+
+</body>
+</html>
