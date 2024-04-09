@@ -15,7 +15,7 @@
   }
 
   body {
-    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    background: linear-gradient(to bottom right, #000, #fff);
     background-repeat: no-repeat;
     /* no repeat for bg  */
     height: 100vh;
@@ -65,7 +65,18 @@
       justify-content: center;
     }
 
-    /* +TASK ADD AFTER IN MEDIA VARIANT */
+    li{
+      position: relative;
+    }
+    li::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #ccdadf;
+    }
   }
 </style>
 
