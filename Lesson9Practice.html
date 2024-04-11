@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: burlywood;
+    }
+    button{
+      padding: 100px 150px;
+      font-size: 2rem;
+      color: red;
+      background-color: #fff;
+      border-radius: 20px;
+      border: none;
+      box-shadow: 2px 2px 5px #000;
+      transition: all .5s ease;
+      animation: skew 3s linear 0s infinite alternate forwards;
+    }
+
+    button:hover{
+      background-color: red;
+      color: #fff;
+    }
+
+    @keyframes skew {
+      0%{transform: skew(0deg);}
+      50%{transform: skew(10deg)}
+      75%{transform: skew(0deg)}
+      100%{transform: skew(-10deg)}
+    }
+  </style>
+</head>
+<body>
+  <button>Hello It`s me</button>
+</body>
+</html>
