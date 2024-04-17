@@ -65,16 +65,24 @@ div.buttonGroup{
 }
 
 div.buttonGroup button{
-  color: white;
-  border-radius: 30px;
+
+  display: flex;  
+  align-items: center;
+
+  background-color: #333841;
   padding: 10px 32px;
+  
   border: none;
+  border-radius: 30px;
+  color: white;
   font-weight: bold;
   font-size: 18px;
-  align-items: center;
-  display: flex;
-  align-items: center;
+  
   text-shadow: 1px 2px 1px #000;
+}
+
+button:first-child{
+  background-color: #00ADB5;
 }
 
 button.arrowDown{
