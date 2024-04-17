@@ -1,0 +1,121 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: #222831;
+  color: #fff;
+}
+
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header>span{
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 48px 96px;
+}
+
+nav>ul{
+  display: flex;
+  padding: 48px 96px;
+  gap: 48px;
+}
+
+nav>ul>li{
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+section h2 {
+  display: inline-block;
+  font-size: 96px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+section h2>span {
+  /* check lastword */
+  color:#00ADB5;
+}
+
+ section.homePage{
+  display: flex;
+  max-width: 600px;
+  margin: 20vh 0px 0px 10vw;
+}
+
+div.buttonGroup{
+  display: flex;
+  gap: 20px;
+}
+
+div.buttonGroup button{
+  color: white;
+  border-radius: 30px;
+  padding: 10px 32px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  text-shadow: 1px 2px 1px #000;
+}
+
+button.arrowDown{
+
+  position: absolute;
+  bottom: 5px;
+  left:35vw;
+  width: 96px;
+  height: 96px;
+  color: #fff;
+
+  background-color: #393E46;
+  font-size: 18px;
+  border:none;
+}
+
+img[alt="vectorArrow"]{
+  width:100px;
+  height: 200px;
+  position: absolute;
+  top: 40vh;
+  left:5vw;
+}
+
+.mainContent{
+  display: flex;
+  flex-direction: column;
+}
+
+.imgGroup{
+  position: relative;
+}
+
+img[alt="background"]{
+  position: absolute;
+  top:-80px;
+  left:30px;
+}
+
+img[alt="human"]{
+  position: absolute;
+  top:80px;
+  left:30px;
+}
