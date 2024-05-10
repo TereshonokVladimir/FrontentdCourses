@@ -15,15 +15,20 @@
 
 // console.log(" \t \n" - 2)
 
-let a = 1
-let b = 1
-let result;
+// let a = 1
+// let b = 1
+// let result;
 
-if (a + b < 4) {
-  result = 'Мало';
-} else {
-  result = 'Много';
+// if (a + b < 4) {
+//   result = 'Мало';
+// } else {
+//   result = 'Много';
+// }
+
+// let result1 = a + b < 4 ? 'Мало' : 'Много' 
+// console.log(result1)
+
+let age = 45 
+if (age>=14 && age<=90) {
+  
 }
-
-let result1 = a + b < 4 ? 'Мало' : 'Много' 
-console.log(result1)
